@@ -1,6 +1,5 @@
 #!usr/bin/env bash
-#This script print Best School ten time 
-#On the 9th time it prints hi
+#This script print Best School ten time, On the 9th time it prints hi
 
 count=0
 
@@ -12,5 +11,5 @@ do
 	fi
 	echo "Best School"
 
-	count=$(( count+1 ))
+	count= (( count+1 ))
 done
