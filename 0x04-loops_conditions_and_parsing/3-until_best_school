@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#This script uses the until loop to print Best school
+
+count=0
+
+until [$count -eq 10 ]
+do
+	echo "Best School
+	(( count++ ))
+done
