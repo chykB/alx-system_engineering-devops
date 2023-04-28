@@ -1,14 +1,14 @@
-#!usr/bin/env bash
-#This script print Best School ten time, On the 9th time it prints hi.
+#!/usr/bin/env bash
+#this script print Best School ten times
+#on the 9th time it print Hi
 
-x = 0
+x=1
 
-while [ $x - lt 10 ]
+while [ $x -le 10 ]
 do
-	if [ $x -eq 9 ]
-	then
+	echo "Best School"
+	if [ x -eq 9 ]; then
 		echo "Hi"
 	fi
-	echo "Best School"
-	(( x++ ))
+	x=$((x+1))
 done
