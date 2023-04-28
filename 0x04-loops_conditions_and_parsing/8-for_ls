@@ -6,7 +6,8 @@
 
 for f in *
 do
-	if [[ -f $file && $file != .* && $file =~ ^[^-]*- ]]; then
-        echo "${file#*-}"
+	if [[ -f $file && $file != .* && $file =~ ^[^-]*- ]]
+       	then
+		 echo "${file#*-}"
 	fi
 done
