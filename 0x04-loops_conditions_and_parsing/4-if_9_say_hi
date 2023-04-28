@@ -10,5 +10,5 @@ do
 	if [ x -eq 9 ]; then
 		echo "Hi"
 	fi
-	x=$((x+1))
+	(( x++ ))
 done
