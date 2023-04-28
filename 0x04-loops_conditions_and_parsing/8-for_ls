@@ -4,7 +4,9 @@
 #  In a list format
 #  Where only the part of the name after the first dash is displayed
 
-for f in *; do
-    echo "$f" | cut -d '-' -f 2
-
+for f in *
+do
+	if [[ -f $file && $file != .* && $file =~ ^[^-]*- ]]; then
+        echo "${file#*-}"
+	fi
 done
