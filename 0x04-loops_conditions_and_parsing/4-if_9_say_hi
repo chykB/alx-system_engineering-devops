@@ -1,14 +1,14 @@
 #!usr/bin/env bash
 #This script print Best School ten time, On the 9th time it prints hi.
 
-count=0
+x = 0
 
-while [ $count - lt 10 ]
+while [ $x - lt 10 ]
 do
-	if [ $count -eq 9 ]
+	if [ $x -eq 9 ]
 	then
 		echo "Hi"
 	fi
 	echo "Best School"
-	(( count++ ))
+	(( x++ ))
 done
