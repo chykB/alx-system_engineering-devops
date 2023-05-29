@@ -1,0 +1,1 @@
+This project is aimed at introducing the basic concepts and components of computer networking. It covers topics such as network types, components, protocols, and concepts that are essential for anyone interested in learning about computer networking.
