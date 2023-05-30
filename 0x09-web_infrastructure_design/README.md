@@ -24,7 +24,7 @@ The application server generates the appropriate response and sends it back to t
 The web server receives the response from the application server and sends it back to the user's web browser.
 
 ## One server web infrastructure
-<img width="50%" src="https://ibb.co/album/dWLzm2">
+<img width="50%" src="https://ibb.co/jgHsLMt">
 
 ### Infrastructure Overview
 
@@ -64,7 +64,7 @@ With only one server, the infrastructure may face challenges in handling high tr
 To improve scalability, load balancing and scaling techniques can be implemented to distribute the load across multiple servers.
 
 ## Two  server web infrastructure
-<img width="50%" src="https://ibb.co/album/dWLzm2">
+<img width="50%" src="https://ibb.co/crsM7cL">
 
 ## Infrastrure overview
 The web infrastructure operates as follows:
@@ -103,7 +103,7 @@ The current infrastructure lacks a firewall and does not employ HTTPS encryption
 Implementing a firewall solution and enabling HTTPS can enhance security and protect sensitive user data.
 
 ## Three server infrastructure
-<img width="50% "src="https://ibb.co/N1ym6cB">
+<img width="50%" src="https://ibb.co/N1ym6cB">
 
 ### Infrastructure Overview
 
