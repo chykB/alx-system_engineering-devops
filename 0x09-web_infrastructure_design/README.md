@@ -33,7 +33,7 @@ The web infrastructure operates as follows:
 #### User Access:
 When a user wants to access the website, they enter "www.foobar.com" in their web browser.
 
-####DNS Resolution:
+#### DNS Resolution:
 The DNS (Domain Name System) resolves the domain name "www.foobar.com" to the server's IP address (configured as 8.8.8.8).
 
 #### Web Server:
